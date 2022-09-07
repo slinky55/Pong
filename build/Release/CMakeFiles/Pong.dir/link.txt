@@ -1,0 +1,1 @@
+/bin/x86_64-pc-linux-gnu-g++ -O3 -DNDEBUG CMakeFiles/Pong.dir/main.cpp.o -o Pong  -Wl,-rpath,/home/shaft/CLionProjects/Pong/build/Release/3rdparty/sfml/lib 3rdparty/sfml/lib/libsfml-graphics.so.3.0.0 3rdparty/sfml/lib/libsfml-window.so.3.0.0 3rdparty/sfml/lib/libsfml-system.so.3.0.0 
