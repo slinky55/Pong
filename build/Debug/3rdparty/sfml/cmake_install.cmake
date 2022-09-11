@@ -1,4 +1,4 @@
-# Install script for directory: /home/shaft/CLionProjects/Pong/3rdparty/sfml
+# Install script for directory: /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -39,12 +39,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/cmake_install.cmake")
+  include("/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -56,7 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-all.pc")
+  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-all.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-system.pc")
+  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-system.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -80,7 +80,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-window.pc")
+  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-window.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -92,7 +92,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-graphics.pc")
+  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-graphics.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -104,7 +104,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-audio.pc")
+  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-audio.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -116,26 +116,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-network.pc")
+  file(INSTALL DESTINATION "/usr/local/pkgconfig" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/tools/pkg-config/sfml-network.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/license.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/license.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/readme.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/readme.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLSharedTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLSharedTargets.cmake"
-         "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
+         "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLSharedTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -144,17 +144,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES
-    "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/SFMLConfig.cmake"
-    "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/SFMLConfigDependencies.cmake"
-    "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/SFMLConfigVersion.cmake"
+    "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/SFMLConfig.cmake"
+    "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/SFMLConfigDependencies.cmake"
+    "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/SFMLConfigVersion.cmake"
     )
 endif()
 

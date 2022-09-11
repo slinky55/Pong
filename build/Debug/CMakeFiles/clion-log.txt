@@ -1,7 +1,7 @@
-/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/bin/make -DCMAKE_C_COMPILER=/bin/x86_64-pc-linux-gnu-gcc -DCMAKE_CXX_COMPILER=/bin/x86_64-pc-linux-gnu-g++ -G "Unix Makefiles" -S /home/shaft/CLionProjects/Pong -B /home/shaft/CLionProjects/Pong/build/Debug
--- libudev stable: 0
--- Found UDev: /usr/lib/libudev.so
+/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -S /home/shaft/CLionProjects/Pong-Cpp -B /home/shaft/CLionProjects/Pong-Cpp/build/Debug
+-- libudev stable: 1
+-- Found UDev: /usr/lib/x86_64-linux-gnu/libudev.so
 --    include: /usr/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/shaft/CLionProjects/Pong/build/Debug
+-- Build files have been written to: /home/shaft/CLionProjects/Pong-Cpp/build/Debug

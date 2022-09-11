@@ -50,7 +50,7 @@ add_library(SFML::System SHARED IMPORTED)
 
 set_target_properties(SFML::System PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include"
 )
 
 # Create imported target SFML::Window
@@ -58,7 +58,7 @@ add_library(SFML::Window SHARED IMPORTED)
 
 set_target_properties(SFML::Window PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "SFML::System"
 )
 
@@ -67,7 +67,7 @@ add_library(X11 INTERFACE IMPORTED)
 
 set_target_properties(X11 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libX11.so;/usr/lib/libXrandr.so;/usr/lib/libXcursor.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXrandr.so;/usr/lib/x86_64-linux-gnu/libXcursor.so"
 )
 
 # Create imported target OpenGL
@@ -75,7 +75,7 @@ add_library(OpenGL INTERFACE IMPORTED)
 
 set_target_properties(OpenGL PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libGL.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libGL.so"
 )
 
 # Create imported target UDev
@@ -83,7 +83,7 @@ add_library(UDev INTERFACE IMPORTED)
 
 set_target_properties(UDev PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libudev.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libudev.so"
 )
 
 # Create imported target SFML::Network
@@ -91,7 +91,7 @@ add_library(SFML::Network SHARED IMPORTED)
 
 set_target_properties(SFML::Network PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "SFML::System"
 )
 
@@ -100,7 +100,7 @@ add_library(SFML::Graphics SHARED IMPORTED)
 
 set_target_properties(SFML::Graphics PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "SFML::Window"
 )
 
@@ -109,7 +109,7 @@ add_library(Freetype INTERFACE IMPORTED)
 
 set_target_properties(Freetype PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include/freetype2"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libfreetype.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libfreetype.so"
 )
 
 # Create imported target OpenAL
@@ -117,7 +117,7 @@ add_library(OpenAL INTERFACE IMPORTED)
 
 set_target_properties(OpenAL PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include/AL"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libopenal.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libopenal.so"
 )
 
 # Create imported target VORBIS
@@ -126,7 +126,7 @@ add_library(VORBIS INTERFACE IMPORTED)
 set_target_properties(VORBIS PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "OV_EXCLUDE_STATIC_CALLBACKS"
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include;/usr/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libvorbisenc.so;/usr/lib/libvorbisfile.so;/usr/lib/libvorbis.so;/usr/lib/libogg.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libvorbisenc.so;/usr/lib/x86_64-linux-gnu/libvorbisfile.so;/usr/lib/x86_64-linux-gnu/libvorbis.so;/usr/lib/x86_64-linux-gnu/libogg.so"
 )
 
 # Create imported target FLAC
@@ -135,7 +135,7 @@ add_library(FLAC INTERFACE IMPORTED)
 set_target_properties(FLAC PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FLAC__NO_DLL"
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/libFLAC.so"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libFLAC.so"
 )
 
 # Create imported target SFML::Audio
@@ -143,42 +143,42 @@ add_library(SFML::Audio SHARED IMPORTED)
 
 set_target_properties(SFML::Audio PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong/3rdparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "SFML::System"
 )
 
 # Import target "SFML::System" for configuration "Debug"
 set_property(TARGET SFML::System APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SFML::System PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-system-d.so.3.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-system-d.so.3.0.0"
   IMPORTED_SONAME_DEBUG "libsfml-system-d.so.3.0"
   )
 
 # Import target "SFML::Window" for configuration "Debug"
 set_property(TARGET SFML::Window APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SFML::Window PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so.3.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so.3.0.0"
   IMPORTED_SONAME_DEBUG "libsfml-window-d.so.3.0"
   )
 
 # Import target "SFML::Network" for configuration "Debug"
 set_property(TARGET SFML::Network APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SFML::Network PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-network-d.so.3.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-network-d.so.3.0.0"
   IMPORTED_SONAME_DEBUG "libsfml-network-d.so.3.0"
   )
 
 # Import target "SFML::Graphics" for configuration "Debug"
 set_property(TARGET SFML::Graphics APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SFML::Graphics PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-graphics-d.so.3.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-graphics-d.so.3.0.0"
   IMPORTED_SONAME_DEBUG "libsfml-graphics-d.so.3.0"
   )
 
 # Import target "SFML::Audio" for configuration "Debug"
 set_property(TARGET SFML::Audio APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SFML::Audio PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0"
+  IMPORTED_LOCATION_DEBUG "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0"
   IMPORTED_SONAME_DEBUG "libsfml-audio-d.so.3.0"
   )
 

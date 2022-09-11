@@ -1,4 +1,4 @@
-# Install script for directory: /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Window
+# Install script for directory: /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Window
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,8 +55,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so.3.0.0"
-    "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so.3.0"
+    "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so.3.0.0"
+    "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so.3.0"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so.3.0.0"
@@ -66,10 +66,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib:"
+           OLD_RPATH "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib:"
            NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "/bin/strip" "${file}")
+        execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
     endif()
   endforeach()
@@ -82,15 +82,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib/libsfml-window-d.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so"
-         OLD_RPATH "/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/lib:"
+         OLD_RPATH "/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-window-d.so")
     endif()
   endif()
 endif()

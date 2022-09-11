@@ -1,4 +1,4 @@
-# Install script for directory: /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML
+# Install script for directory: /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -39,31 +39,31 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/System/cmake_install.cmake")
+  include("/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/System/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Window/cmake_install.cmake")
+  include("/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Window/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Network/cmake_install.cmake")
+  include("/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Network/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Graphics/cmake_install.cmake")
+  include("/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Graphics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio/cmake_install.cmake")
+  include("/home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio/cmake_install.cmake")
 endif()
 

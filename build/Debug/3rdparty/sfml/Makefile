@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /snap/clion/204/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /snap/clion/204/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shaft/CLionProjects/Pong
+CMAKE_SOURCE_DIR = /home/shaft/CLionProjects/Pong-Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shaft/CLionProjects/Pong/build/Debug
+CMAKE_BINARY_DIR = /home/shaft/CLionProjects/Pong-Cpp/build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/shaft/CLionProjects/Pong/build/Debug
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/shaft/CLionProjects/Pong/build/Debug && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && /snap/clion/204/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/shaft/CLionProjects/Pong/build/Debug && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/shaft/CLionProjects/Pong/build/Debug/CPackSourceConfig.cmake
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && /snap/clion/204/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/shaft/CLionProjects/Pong-Cpp/build/Debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -88,7 +88,7 @@ package_source/fast: package_source
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/shaft/CLion-2022.2.1/clion-2022.2.1/bin/cmake/linux/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -98,7 +98,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/204/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -117,49 +117,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/snap/clion/204/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/snap/clion/204/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml//CMakeFiles/progress.marks
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles 0
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml//CMakeFiles/progress.marks
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/clean
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,17 +168,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/preinstall
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/preinstall
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/sfml/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -206,6 +206,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

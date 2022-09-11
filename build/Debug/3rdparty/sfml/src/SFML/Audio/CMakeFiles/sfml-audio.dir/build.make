@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /snap/clion/204/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /snap/clion/204/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shaft/CLionProjects/Pong
+CMAKE_SOURCE_DIR = /home/shaft/CLionProjects/Pong-Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shaft/CLionProjects/Pong/build/Debug
+CMAKE_BINARY_DIR = /home/shaft/CLionProjects/Pong-Cpp/build/Debug
 
 # Include any dependencies generated for this target.
 include 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend.make
@@ -72,296 +72,296 @@ include 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/ALCheck.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o -MF CMakeFiles/sfml-audio.dir/ALCheck.cpp.o.d -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/ALCheck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o -MF CMakeFiles/sfml-audio.dir/ALCheck.cpp.o.d -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/ALCheck.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/ALCheck.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/ALCheck.cpp > CMakeFiles/sfml-audio.dir/ALCheck.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/ALCheck.cpp > CMakeFiles/sfml-audio.dir/ALCheck.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/ALCheck.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/ALCheck.cpp -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/ALCheck.cpp -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/AlResource.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o -MF CMakeFiles/sfml-audio.dir/AlResource.cpp.o.d -o CMakeFiles/sfml-audio.dir/AlResource.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/AlResource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o -MF CMakeFiles/sfml-audio.dir/AlResource.cpp.o.d -o CMakeFiles/sfml-audio.dir/AlResource.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/AlResource.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/AlResource.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/AlResource.cpp > CMakeFiles/sfml-audio.dir/AlResource.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/AlResource.cpp > CMakeFiles/sfml-audio.dir/AlResource.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/AlResource.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/AlResource.cpp -o CMakeFiles/sfml-audio.dir/AlResource.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/AlResource.cpp -o CMakeFiles/sfml-audio.dir/AlResource.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -MF CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o.d -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -MF CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o.d -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp > CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp > CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/AudioDevice.cpp -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/Listener.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o -MF CMakeFiles/sfml-audio.dir/Listener.cpp.o.d -o CMakeFiles/sfml-audio.dir/Listener.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o -MF CMakeFiles/sfml-audio.dir/Listener.cpp.o.d -o CMakeFiles/sfml-audio.dir/Listener.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Listener.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Listener.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Listener.cpp > CMakeFiles/sfml-audio.dir/Listener.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Listener.cpp > CMakeFiles/sfml-audio.dir/Listener.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Listener.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Listener.cpp -o CMakeFiles/sfml-audio.dir/Listener.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Listener.cpp -o CMakeFiles/sfml-audio.dir/Listener.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/Music.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o -MF CMakeFiles/sfml-audio.dir/Music.cpp.o.d -o CMakeFiles/sfml-audio.dir/Music.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Music.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o -MF CMakeFiles/sfml-audio.dir/Music.cpp.o.d -o CMakeFiles/sfml-audio.dir/Music.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Music.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Music.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Music.cpp > CMakeFiles/sfml-audio.dir/Music.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Music.cpp > CMakeFiles/sfml-audio.dir/Music.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Music.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Music.cpp -o CMakeFiles/sfml-audio.dir/Music.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Music.cpp -o CMakeFiles/sfml-audio.dir/Music.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/Sound.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o -MF CMakeFiles/sfml-audio.dir/Sound.cpp.o.d -o CMakeFiles/sfml-audio.dir/Sound.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Sound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o -MF CMakeFiles/sfml-audio.dir/Sound.cpp.o.d -o CMakeFiles/sfml-audio.dir/Sound.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Sound.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Sound.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Sound.cpp > CMakeFiles/sfml-audio.dir/Sound.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Sound.cpp > CMakeFiles/sfml-audio.dir/Sound.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Sound.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/Sound.cpp -o CMakeFiles/sfml-audio.dir/Sound.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/Sound.cpp -o CMakeFiles/sfml-audio.dir/Sound.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp > CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp > CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundBuffer.cpp -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundBufferRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o -MF CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o.d -o CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o -MF CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o.d -o CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp > CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp > CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp -o CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/InputSoundFile.cpp -o CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o -MF CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o.d -o CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o -MF CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o.d -o CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp > CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp > CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp -o CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/OutputSoundFile.cpp -o CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundSource.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundSource.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundSource.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundSource.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundSource.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundSource.cpp > CMakeFiles/sfml-audio.dir/SoundSource.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundSource.cpp > CMakeFiles/sfml-audio.dir/SoundSource.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundSource.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundSource.cpp -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundSource.cpp -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundStream.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundStream.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundStream.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundStream.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundStream.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundStream.cpp > CMakeFiles/sfml-audio.dir/SoundStream.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundStream.cpp > CMakeFiles/sfml-audio.dir/SoundStream.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundStream.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundStream.cpp -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundStream.cpp -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp > CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp > CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp -o CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileFactory.cpp -o CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderFlac.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderMp3.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderOgg.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp > CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileReaderWav.cpp -o CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp > CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp > CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp -o CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterFlac.cpp -o CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp > CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp > CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp -o CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterOgg.cpp -o CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.s
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o: ../../3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o -c /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o -MF CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o.d -o CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o -c /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.i"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp > CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.i
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp > CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.i
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.s"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && /bin/x86_64-pc-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp -o CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.s
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio/SoundFileWriterWav.cpp -o CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.s
 
 # Object files for target sfml-audio
 sfml__audio_OBJECTS = \
@@ -413,16 +413,16 @@ sfml__audio_EXTERNAL_OBJECTS =
 3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o
 3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make
 3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: 3rdparty/sfml/lib/libsfml-system-d.so.3.0.0
-3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/libopenal.so
-3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/libvorbisenc.so
-3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/libvorbisfile.so
-3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/libvorbis.so
-3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/libogg.so
-3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/libFLAC.so
+3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/x86_64-linux-gnu/libopenal.so
+3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/x86_64-linux-gnu/libvorbisenc.so
+3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/x86_64-linux-gnu/libvorbisfile.so
+3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/x86_64-linux-gnu/libvorbis.so
+3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/x86_64-linux-gnu/libogg.so
+3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: /usr/lib/x86_64-linux-gnu/libFLAC.so
 3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0: 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shaft/CLionProjects/Pong/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX shared library ../../../lib/libsfml-audio-d.so"
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-audio.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-audio-d.so.3.0.0 ../../../lib/libsfml-audio-d.so.3.0 ../../../lib/libsfml-audio-d.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shaft/CLionProjects/Pong-Cpp/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX shared library ../../../lib/libsfml-audio-d.so"
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-audio.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-audio-d.so.3.0.0 ../../../lib/libsfml-audio-d.so.3.0 ../../../lib/libsfml-audio-d.so
 
 3rdparty/sfml/lib/libsfml-audio-d.so.3.0: 3rdparty/sfml/lib/libsfml-audio-d.so.3.0.0
 	@$(CMAKE_COMMAND) -E touch_nocreate 3rdparty/sfml/lib/libsfml-audio-d.so.3.0
@@ -435,10 +435,10 @@ sfml__audio_EXTERNAL_OBJECTS =
 .PHONY : 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean:
-	cd /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -P CMakeFiles/sfml-audio.dir/cmake_clean.cmake
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -P CMakeFiles/sfml-audio.dir/cmake_clean.cmake
 .PHONY : 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean
 
 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend:
-	cd /home/shaft/CLionProjects/Pong/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shaft/CLionProjects/Pong /home/shaft/CLionProjects/Pong/3rdparty/sfml/src/SFML/Audio /home/shaft/CLionProjects/Pong/build/Debug /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio /home/shaft/CLionProjects/Pong/build/Debug/3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shaft/CLionProjects/Pong-Cpp/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shaft/CLionProjects/Pong-Cpp /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/src/SFML/Audio /home/shaft/CLionProjects/Pong-Cpp/build/Debug /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio /home/shaft/CLionProjects/Pong-Cpp/build/Debug/3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 
