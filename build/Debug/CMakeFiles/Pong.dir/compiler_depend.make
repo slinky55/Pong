@@ -3,6 +3,7 @@
 
 CMakeFiles/Pong.dir/main.cpp.o: ../../main.cpp \
   /usr/include/stdc-predef.h \
+  ../../include/Pong.h \
   ../../include/Player.h \
   /usr/include/c++/10/iostream \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
@@ -343,7 +344,8 @@ CMakeFiles/Pong.dir/main.cpp.o: ../../main.cpp \
   ../../3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
   ../../3rdparty/sfml/include/SFML/Network/TcpListener.hpp \
   ../../3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
-  ../../include/Components.h
+  ../../include/Components.h \
+  ../../include/Ball.h
 
 CMakeFiles/Pong.dir/src/Player.cpp.o: ../../src/Player.cpp \
   /usr/include/stdc-predef.h \
@@ -1038,8 +1040,6 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 ../../include/Ball.h:
 
-../../include/Pong.h:
-
 ../../3rdparty/sfml/include/SFML/Network/TcpListener.hpp:
 
 /usr/include/c++/10/bits/stl_map.h:
@@ -1218,6 +1218,10 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 /usr/include/c++/10/cassert:
 
+../../3rdparty/sfml/include/SFML/System/Vector2.hpp:
+
+/usr/include/time.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -1252,11 +1256,11 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
 /usr/include/c++/10/bits/locale_facets_nonio.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/messages_members.h:
 
@@ -1318,6 +1322,8 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
+../../include/Pong.h:
+
 ../../3rdparty/sfml/include/SFML/Window/Window.hpp:
 
 /usr/include/c++/10/ext/numeric_traits.h:
@@ -1333,6 +1339,8 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 /usr/include/c++/10/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/10/type_traits:
 
 /usr/include/c++/10/ext/aligned_buffer.h:
 
@@ -1354,9 +1362,13 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/c++/10/iostream:
+/usr/include/c++/10/bits/stl_algobase.h:
+
+/usr/include/c++/10/limits:
 
 /usr/include/c++/10/bits/stringfwd.h:
+
+/usr/include/c++/10/iostream:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -1367,62 +1379,6 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 /usr/include/c++/10/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h:
-
-../../3rdparty/sfml/include/SFML/Window/Vulkan.hpp:
-
-/usr/include/c++/10/bits/nested_exception.h:
-
-/usr/include/c++/10/bits/cpp_type_traits.h:
-
-/usr/include/c++/10/typeinfo:
-
-/usr/include/c++/10/bits/basic_string.h:
-
-/usr/include/c++/10/pstl/execution_defs.h:
-
-/usr/include/c++/10/bit:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/10/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/10/bits/hash_bytes.h:
-
-../../3rdparty/sfml/include/SFML/Window/Sensor.hpp:
-
-/usr/include/c++/10/ext/atomicity.h:
-
-../../3rdparty/sfml/include/SFML/System.hpp:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h:
-
-/usr/include/c++/10/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/10/string_view:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h:
-
-../../3rdparty/sfml/include/SFML/Window.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h:
-
-/usr/include/c++/10/bits/stl_algobase.h:
-
-/usr/include/c++/10/limits:
 
 /usr/include/c++/10/pstl/glue_memory_defs.h:
 
@@ -1443,6 +1399,52 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 ../../3rdparty/sfml/include/SFML/Network.hpp:
 
 /usr/include/c++/10/bits/exception.h:
+
+/usr/include/c++/10/pstl/execution_defs.h:
+
+/usr/include/c++/10/bit:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/10/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+../../3rdparty/sfml/include/SFML/Window/Vulkan.hpp:
+
+/usr/include/c++/10/bits/nested_exception.h:
+
+/usr/include/c++/10/bits/cpp_type_traits.h:
+
+/usr/include/c++/10/typeinfo:
+
+/usr/include/c++/10/bits/basic_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/10/string_view:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+../../3rdparty/sfml/include/SFML/System.hpp:
+
+/usr/include/stdc-predef.h:
+
+../../3rdparty/sfml/include/SFML/Window/Sensor.hpp:
+
+/usr/include/c++/10/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h:
+
+../../3rdparty/sfml/include/SFML/Window.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h:
+
+/usr/include/c++/10/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -1480,9 +1482,13 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/wchar.h:
 
-/usr/include/c++/10/type_traits:
+/usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h:
+
+/usr/include/c++/10/cstdint:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/10/pstl/pstl_config.h:
 
@@ -1626,9 +1632,9 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 
 ../../3rdparty/sfml/include/SFML/Graphics/Sprite.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -1725,7 +1731,3 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
 ../../3rdparty/sfml/include/SFML/Graphics/Transform.hpp:
 
 ../../3rdparty/sfml/include/SFML/Graphics/Rect.hpp:
-
-/usr/include/time.h:
-
-../../3rdparty/sfml/include/SFML/System/Vector2.hpp:

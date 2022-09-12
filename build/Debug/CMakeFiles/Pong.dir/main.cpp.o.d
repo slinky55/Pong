@@ -1,5 +1,6 @@
 CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/main.cpp /usr/include/stdc-predef.h \
+ /home/shaft/CLionProjects/Pong-Cpp/include/Pong.h \
  /home/shaft/CLionProjects/Pong-Cpp/include/Player.h \
  /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
@@ -286,4 +287,5 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpListener.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/include/Components.h
+ /home/shaft/CLionProjects/Pong-Cpp/include/Components.h \
+ /home/shaft/CLionProjects/Pong-Cpp/include/Ball.h

@@ -12,14 +12,17 @@ public:
 
     void init();
 
-    void update(float dt);
+    void update();
     void draw(sf::RenderWindow& window);
 
+    void input();
+
     // Network related
-    void sync();
-    void sendMessage(sf::Packet& _packet);
     void connect(const sf::IpAddress& _ip, unsigned short _port = 54000);
     void disconnect();
+
+    // Accessors
+    Transform& getTransform();
 private:
     Transform transform;
     Connection connection;

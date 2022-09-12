@@ -27,15 +27,24 @@ void Player::init()
     paddle.setFillColor(sf::Color::White);
 }
 
-void Player::update(float dt)
+void Player::update()
 {
-    sync();
-    // TODO: Update positions, etc...
+    paddle.setPosition(transform.position);
 }
 
 void Player::draw(sf::RenderWindow &window)
 {
     window.draw(paddle);
+}
+
+void Player::input()
+{
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+        transform.velocity.y = -100;
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+        transform.velocity.y = 100;
+    else
+        transform.velocity.y = 0;
 }
 
 void Player::connect(const sf::IpAddress& _ip, unsigned short _port)
@@ -76,13 +85,4 @@ void Player::disconnect()
     }
 }
 
-void Player::sendMessage(sf::Packet &_packet)
-{
-    if (connection.socket.send(_packet) == sf::Socket::Done)
-        std::cout << "Message sent successfully!\n";
-}
-
-void Player::sync()
-{
-    // TODO: Sync data
-}
+Transform& Player::getTransform() { return transform; }

@@ -3,28 +3,29 @@
 #include <Player.h>
 #include <Ball.h>
 
-/*
 class Pong {
 public:
     Pong() = default;
+    ~Pong();
 
     void init();
     void run();
 
 private:
-    // Left
-    Player player1;
-    // Right
-    Player player2;
+    Player player;
 
     // The ball will be synced across both clients
     Ball ball;
 
     sf::RenderWindow window;
-};
-*/
 
-class Client
-{
+    sf::Clock clock;
 
+    void update();
+    void sync();
+
+    // Game "Systems"
+    void EventSystem();
+    void PhysicsSystem(float dt);
+    void RenderSystem();
 };
