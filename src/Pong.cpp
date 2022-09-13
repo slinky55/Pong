@@ -27,11 +27,12 @@ void Pong::init()
     window.create( sf::VideoMode({800, 600}), "Pong - Multiplayer" );
 
     connect(sf::IpAddress::LocalHost, 4500);
-
-    sync();
-
+    player.paddle.setPosition(player.transform.position);
+    player.paddle.setSize({10, 100});
     player.paddle.setFillColor(sf::Color::White);
+
     opponent.paddle.setFillColor(sf::Color::White);
+    opponent.paddle.setSize({10, 100});
 }
 
 void Pong::run()
@@ -54,20 +55,43 @@ void Pong::update()
 
 void Pong::sync()
 {
+    sf::Packet out, in;
 
+    out << 1 << player.ID << player.transform;
+
+    connection.socket.send(out, connection.serverIp.value(), connection.serverPort);
+
+    in >> opponent.transform;
 }
 
 void Pong::connect(const sf::IpAddress& _ip, unsigned short _port)
 {
-    connection.serverIpAddress = _ip;
+    connection.serverIp = _ip;
     connection.serverPort = _port;
 
+    sf::Packet connectionPacket;
+    connectionPacket << 0;    // Connection signal
 
+    if (connection.socket.send(connectionPacket, connection.serverIp.value(), connection.serverPort) == sf::Socket::Done)
+    {
+        std::cout << "Connection successful!\nAwaiting info...\n";
+        sf::Packet infoPacket;
+        std::optional<sf::IpAddress> ip;
+        if (connection.socket.receive(infoPacket, ip, connection.serverPort) == sf::Socket::Done)
+        {
+            infoPacket >> player.ID >> player.transform;
+            std::cout << "Info received!\n";
+        }
+    }
+
+    connection.socket.setBlocking(false);
 }
 
 void Pong::disconnect()
 {
-
+    sf::Packet out;
+    out << 2 << player.ID;
+    connection.socket.send(out, connection.serverIp.value(), connection.serverPort);
 }
 
 void Pong::EventSystem()

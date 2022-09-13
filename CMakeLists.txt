@@ -4,7 +4,8 @@ project(Pong)
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(/usr/local/include include)
-add_subdirectory(3rdparty/sfml)
+
+#add_subdirectory(3rdparty/sfml)
 
 file (GLOB_RECURSE SRCS src/*.cpp)
 

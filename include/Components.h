@@ -2,7 +2,13 @@
 
 #include <SFML/System/Vector2.hpp>
 #include <SFML/Network/IpAddress.hpp>
-#include <SFML/Network/TcpSocket.hpp>
+#include "SFML/Network/UdpSocket.hpp"
+
+enum class Signal {
+    CONNECT = 0,
+    SYNC,
+    DISCONNECT
+};
 
 struct Transform
 {
@@ -14,7 +20,7 @@ struct Transform
 
 struct Connection
 {
-    sf::IpAddress serverIpAddress {127, 0, 0, 1};
-    unsigned short serverPort;
+    std::optional<sf::IpAddress> serverIp;
+    unsigned short serverPort = 4500;
     sf::UdpSocket socket;
 };

@@ -151,25 +151,39 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /usr/include/c++/10/bits/basic_ios.tcc \
  /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
+ /home/shaft/CLionProjects/Pong-Cpp/include/Components.h \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector2.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Export.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Config.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Angle.hpp \
+ /usr/include/c++/10/cassert /usr/include/assert.h \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Angle.inl \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector2.inl \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/IpAddress.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Export.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Time.hpp \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Time.inl \
+ /usr/include/c++/10/optional /usr/include/c++/10/utility \
+ /usr/include/c++/10/bits/stl_relops.h \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Socket.hpp \
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketHandle.hpp \
+ /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_uninitialized.h \
+ /usr/include/c++/10/bits/stl_vector.h \
+ /usr/include/c++/10/bits/stl_bvector.h \
+ /usr/include/c++/10/bits/vector.tcc \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/BlendMode.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Export.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Config.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/CircleShape.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Shape.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Drawable.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Transformable.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Transform.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Rect.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector2.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Export.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Angle.hpp \
- /usr/include/c++/10/cassert /usr/include/assert.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Angle.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector2.inl \
- /usr/include/c++/10/optional /usr/include/c++/10/utility \
- /usr/include/c++/10/bits/stl_relops.h \
- /usr/include/c++/10/bits/enable_special_members.h \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Rect.inl \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Transform.inl \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/VertexArray.hpp \
@@ -178,10 +192,6 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Color.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Color.inl \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Vertex.inl \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_uninitialized.h \
- /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/ConvexShape.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Font.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Glyph.hpp \
@@ -189,8 +199,6 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/GlResource.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Export.hpp \
  /usr/include/c++/10/filesystem /usr/include/c++/10/bits/fs_fwd.h \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
  /usr/include/c++/10/bits/fs_path.h /usr/include/c++/10/locale \
  /usr/include/c++/10/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h \
@@ -237,8 +245,6 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/RenderWindow.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Window.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Clock.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Time.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Time.inl \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/WindowBase.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Vulkan.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/WindowHandle.hpp \
@@ -274,17 +280,11 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/VideoMode.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Ftp.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Export.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpSocket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Socket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketHandle.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Http.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/IpAddress.hpp \
  /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
  /usr/include/c++/10/bits/stl_map.h \
  /usr/include/c++/10/bits/stl_multimap.h \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Packet.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpListener.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/include/Components.h
+ /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpListener.hpp

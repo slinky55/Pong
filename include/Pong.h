@@ -1,6 +1,9 @@
 #pragma once
 
 #include <Player.h>
+#include <Components.h>
+#include <SFML/Graphics.hpp>
+#include <SFML/Network.hpp>
 
 class Pong {
 public:

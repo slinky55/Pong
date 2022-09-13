@@ -3,6 +3,7 @@
 int main(int argc, char** argv)
 {
     Pong p;
+
     p.init();
     p.run();
 

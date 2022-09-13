@@ -1,7 +1,4 @@
 /snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -S /home/shaft/CLionProjects/Pong-Cpp -B /home/shaft/CLionProjects/Pong-Cpp/build/Release
--- libudev stable: 1
--- Found UDev: /usr/lib/x86_64-linux-gnu/libudev.so
---    include: /usr/include
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/shaft/CLionProjects/Pong-Cpp/build/Release

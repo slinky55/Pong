@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shaft/CLionProjects/Pong-Cpp/include -I/home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include
+CXX_INCLUDES = -I/home/shaft/CLionProjects/Pong-Cpp/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++2a
 
