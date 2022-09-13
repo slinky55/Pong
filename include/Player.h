@@ -5,7 +5,7 @@
 
 #include <Components.h>
 
-class Player
+/*class Player
 {
 public:
     Player() = default;
@@ -27,4 +27,11 @@ private:
     sf::RectangleShape paddle;
 
     sf::Uint32 score {0}, ID {0};
+};*/
+
+struct Player
+{
+    Transform transform;
+    sf::Uint32 ID {0}, score {0};
+    sf::RectangleShape paddle;
 };

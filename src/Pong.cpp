@@ -4,17 +4,14 @@ sf::Packet& operator<<(sf::Packet& packet, const sf::Vector2f& vec)
 {
     return packet << vec.x << vec.y;
 }
-
 sf::Packet& operator>>(sf::Packet& packet, sf::Vector2f& vec)
 {
     return packet >> vec.x >> vec.y;
 }
-
 sf::Packet& operator<<(sf::Packet& packet, const Transform& transform)
 {
     return packet << transform.position << transform.velocity << transform.scale << transform.rotation;
 }
-
 sf::Packet& operator>>(sf::Packet& packet, Transform& transform)
 {
     return packet >> transform.position >> transform.velocity >> transform.scale >> transform.rotation;
@@ -31,16 +28,10 @@ void Pong::init()
 
     connect(sf::IpAddress::LocalHost, 4500);
 
-    player.init();
-
     sync();
 
-    opponent.paddle.setSize({10, 100});
-    opponent.paddle.setPosition(opponent.transform.position);
-    if (player.getID() == 0)
-        opponent.paddle.setFillColor(sf::Color::Blue);
-    else
-        opponent.paddle.setFillColor(sf::Color::Red);
+    player.paddle.setFillColor(sf::Color::White);
+    opponent.paddle.setFillColor(sf::Color::White);
 }
 
 void Pong::run()
@@ -57,25 +48,13 @@ void Pong::run()
 
 void Pong::update()
 {
-    player.update();
-
+    player.paddle.setPosition(player.transform.position);
     opponent.paddle.setPosition(opponent.transform.position);
 }
 
 void Pong::sync()
 {
-    // Send our data to the server
-    sf::Packet inbound, outbound;
 
-    outbound << 0 << player.getID() << player.getTransform();
-    if (connection.socket.send(outbound) != sf::Socket::Done)
-        std::cout << "Failed to send data to server\n";
-
-    // Get opponent data from the server
-    if (connection.socket.receive(inbound) == sf::Socket::Done)
-        inbound >> opponent.transform;
-    else
-        std::cout << "Failed to receive data from server\n";
 }
 
 void Pong::connect(const sf::IpAddress& _ip, unsigned short _port)
@@ -83,38 +62,12 @@ void Pong::connect(const sf::IpAddress& _ip, unsigned short _port)
     connection.serverIpAddress = _ip;
     connection.serverPort = _port;
 
-    sf::Socket::Status connectionStatus = connection.socket.connect(
-            connection.serverIpAddress, connection.serverPort, sf::seconds(5));
 
-    if (connectionStatus != sf::Socket::Done)
-    {
-        std::cout << "Failed to connect to server!\n";
-        return;
-    }
-
-    connection.socket.setBlocking(false);
-
-    std::cout << "Connection to server succeeded!\n"
-                 "Awaiting info...\n";
-
-    sf::Packet playerInfo;
-    if (connection.socket.receive(playerInfo) == sf::Socket::Done)
-    {
-        playerInfo >> player.getTransform() >> player.getID() >> player.getScore();
-        std::cout << "Received info!\n";
-    }
 }
 
 void Pong::disconnect()
 {
-    sf::Packet packet;
-    packet << -1;
-    packet << player.getID();
-    if (connection.socket.send(packet) == sf::Socket::Done)
-    {
-        connection.socket.disconnect();
-        std::cout << "Disconnected from server\n";
-    }
+
 }
 
 void Pong::EventSystem()
@@ -127,18 +80,25 @@ void Pong::EventSystem()
             window.close();
     }
 
-    player.input();
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+        player.transform.velocity.y = -75;
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+        player.transform.velocity.y = 75;
 }
 
 void Pong::PhysicsSystem(float dt)
 {
-    player.getTransform().position += (player.getTransform().velocity * dt);
+    player.transform.position += (player.transform.velocity * dt);
 }
 
 void Pong::RenderSystem()
 {
     window.clear(sf::Color::Black);
-    player.draw(window);
+
+    // TODO: Draw UI
+
+    window.draw(player.paddle);
     window.draw(opponent.paddle);
+
     window.display();
 }

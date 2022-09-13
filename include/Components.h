@@ -16,5 +16,5 @@ struct Connection
 {
     sf::IpAddress serverIpAddress {127, 0, 0, 1};
     unsigned short serverPort;
-    sf::TcpSocket socket;
+    sf::UdpSocket socket;
 };
