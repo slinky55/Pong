@@ -344,8 +344,7 @@ CMakeFiles/Pong.dir/main.cpp.o: ../../main.cpp \
   ../../3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
   ../../3rdparty/sfml/include/SFML/Network/TcpListener.hpp \
   ../../3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
-  ../../include/Components.h \
-  ../../include/Ball.h
+  ../../include/Components.h
 
 CMakeFiles/Pong.dir/src/Player.cpp.o: ../../src/Player.cpp \
   /usr/include/stdc-predef.h \
@@ -1034,11 +1033,8 @@ CMakeFiles/Pong.dir/src/Pong.cpp.o: ../../src/Pong.cpp \
   ../../3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
   ../../3rdparty/sfml/include/SFML/Network/TcpListener.hpp \
   ../../3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
-  ../../include/Components.h \
-  ../../include/Ball.h
+  ../../include/Components.h
 
-
-../../include/Ball.h:
 
 ../../3rdparty/sfml/include/SFML/Network/TcpListener.hpp:
 

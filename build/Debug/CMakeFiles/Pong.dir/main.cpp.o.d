@@ -287,5 +287,4 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpListener.hpp \
  /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/include/Components.h \
- /home/shaft/CLionProjects/Pong-Cpp/include/Ball.h
+ /home/shaft/CLionProjects/Pong-Cpp/include/Components.h

@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Player.h>
-#include <Ball.h>
 
 class Pong {
 public:
@@ -14,15 +13,32 @@ public:
 private:
     Player player;
 
+    struct Opponent
+    {
+        sf::RectangleShape paddle;
+        Transform transform;
+        sf::Uint32 score {0}, ID {0};
+    } opponent;
+
     // The ball will be synced across both clients
-    Ball ball;
+    struct Ball
+    {
+        Transform transform;
+        sf::CircleShape circle;
+    } ball;
+
+    Connection connection;
 
     sf::RenderWindow window;
 
     sf::Clock clock;
 
     void update();
+
+    // Network "Systems"
     void sync();
+    void connect(const sf::IpAddress& _ip, unsigned short _port);
+    void disconnect();
 
     // Game "Systems"
     void EventSystem();

@@ -17,15 +17,12 @@ public:
 
     void input();
 
-    // Network related
-    void connect(const sf::IpAddress& _ip, unsigned short _port = 54000);
-    void disconnect();
-
     // Accessors
     Transform& getTransform();
+    sf::Uint32& getID();
+    sf::Uint32& getScore();
 private:
     Transform transform;
-    Connection connection;
 
     sf::RectangleShape paddle;
 
