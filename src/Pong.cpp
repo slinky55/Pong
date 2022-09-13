@@ -58,26 +58,26 @@ void Pong::sync()
     sf::Packet out, in;
 
     out << 1 << player.ID << player.transform;
+    connection.socket.send(out, connection.ip, connection.port);
 
-    connection.socket.send(out, connection.serverIp.value(), connection.serverPort);
-
+    connection.socket.receive(in, connection.ip, connection.port);
     in >> opponent.transform;
 }
 
 void Pong::connect(const sf::IpAddress& _ip, unsigned short _port)
 {
-    connection.serverIp = _ip;
-    connection.serverPort = _port;
+    connection.ip = _ip;
+    connection.port = _port;
 
     sf::Packet connectionPacket;
     connectionPacket << 0;    // Connection signal
 
-    if (connection.socket.send(connectionPacket, connection.serverIp.value(), connection.serverPort) == sf::Socket::Done)
+    if (connection.socket.send(connectionPacket, connection.ip, connection.port) == sf::Socket::Done)
     {
         std::cout << "Connection successful!\nAwaiting info...\n";
         sf::Packet infoPacket;
         std::optional<sf::IpAddress> ip;
-        if (connection.socket.receive(infoPacket, ip, connection.serverPort) == sf::Socket::Done)
+        if (connection.socket.receive(infoPacket, connection.ip, connection.port) == sf::Socket::Done)
         {
             infoPacket >> player.ID >> player.transform;
             std::cout << "Info received!\n";
@@ -91,7 +91,7 @@ void Pong::disconnect()
 {
     sf::Packet out;
     out << 2 << player.ID;
-    connection.socket.send(out, connection.serverIp.value(), connection.serverPort);
+    connection.socket.send(out, connection.ip, connection.port);
 }
 
 void Pong::EventSystem()
@@ -108,11 +108,14 @@ void Pong::EventSystem()
         player.transform.velocity.y = -75;
     else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
         player.transform.velocity.y = 75;
+    else
+        player.transform.velocity.y = 0;
 }
 
 void Pong::PhysicsSystem(float dt)
 {
     player.transform.position += (player.transform.velocity * dt);
+    opponent.transform.position += (opponent.transform.velocity * dt);
 }
 
 void Pong::RenderSystem()

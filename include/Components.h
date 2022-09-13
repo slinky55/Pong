@@ -20,7 +20,7 @@ struct Transform
 
 struct Connection
 {
-    std::optional<sf::IpAddress> serverIp;
-    unsigned short serverPort = 4500;
+    sf::IpAddress ip;
+    unsigned short port = 4500;
     sf::UdpSocket socket;
 };

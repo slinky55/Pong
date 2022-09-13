@@ -152,139 +152,104 @@ CMakeFiles/Pong.dir/main.cpp.o: \
  /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
  /usr/include/c++/10/bits/istream.tcc \
  /home/shaft/CLionProjects/Pong-Cpp/include/Components.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector2.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Export.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Config.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Angle.hpp \
- /usr/include/c++/10/cassert /usr/include/assert.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Angle.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector2.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/IpAddress.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Export.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Time.hpp \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Time.inl \
- /usr/include/c++/10/optional /usr/include/c++/10/utility \
- /usr/include/c++/10/bits/stl_relops.h \
- /usr/include/c++/10/bits/enable_special_members.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/UdpSocket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Socket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketHandle.hpp \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_uninitialized.h \
+ /usr/include/SFML/System/Vector2.hpp \
+ /usr/include/SFML/System/Vector2.inl \
+ /usr/include/SFML/Network/IpAddress.hpp \
+ /usr/include/SFML/Network/Export.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/System/Time.hpp /usr/include/SFML/System/Export.hpp \
+ /usr/include/SFML/Network/UdpSocket.hpp \
+ /usr/include/SFML/Network/Socket.hpp \
+ /usr/include/SFML/Network/SocketHandle.hpp \
+ /usr/include/SFML/System/NonCopyable.hpp /usr/include/c++/10/vector \
+ /usr/include/c++/10/bits/stl_uninitialized.h \
  /usr/include/c++/10/bits/stl_vector.h \
  /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/BlendMode.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Export.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/CircleShape.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Shape.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Drawable.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Transformable.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Transform.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Rect.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Rect.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Transform.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/VertexArray.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/PrimitiveType.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Vertex.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Color.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Color.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Vertex.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/ConvexShape.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Font.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Glyph.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Texture.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/GlResource.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Export.hpp \
- /usr/include/c++/10/filesystem /usr/include/c++/10/bits/fs_fwd.h \
- /usr/include/c++/10/bits/fs_path.h /usr/include/c++/10/locale \
- /usr/include/c++/10/bits/locale_facets_nonio.h \
+ /usr/include/c++/10/bits/vector.tcc /usr/include/SFML/Graphics.hpp \
+ /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
+ /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Err.hpp \
+ /usr/include/SFML/System/FileInputStream.hpp \
+ /usr/include/SFML/System/InputStream.hpp \
+ /usr/include/SFML/System/Lock.hpp \
+ /usr/include/SFML/System/MemoryInputStream.hpp \
+ /usr/include/SFML/System/Mutex.hpp /usr/include/SFML/System/Sleep.hpp \
+ /usr/include/SFML/System/String.hpp /usr/include/SFML/System/Utf.hpp \
+ /usr/include/c++/10/algorithm /usr/include/c++/10/utility \
+ /usr/include/c++/10/bits/stl_relops.h \
+ /usr/include/c++/10/bits/ranges_algo.h \
+ /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
+ /usr/include/c++/10/bits/stream_iterator.h /usr/include/c++/10/ranges \
+ /usr/include/c++/10/bits/refwrap.h /usr/include/c++/10/bits/invoke.h \
+ /usr/include/c++/10/optional \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /usr/include/c++/10/tuple /usr/include/c++/10/array \
+ /usr/include/c++/10/bits/uses_allocator.h \
+ /usr/include/c++/10/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/10/functional /usr/include/c++/10/bits/std_function.h \
+ /usr/include/c++/10/unordered_map \
+ /usr/include/c++/10/ext/aligned_buffer.h \
+ /usr/include/c++/10/bits/hashtable.h \
+ /usr/include/c++/10/bits/hashtable_policy.h \
+ /usr/include/c++/10/bits/node_handle.h \
+ /usr/include/c++/10/bits/unordered_map.h \
+ /usr/include/c++/10/bits/erase_if.h \
+ /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/locale \
+ /usr/include/c++/10/bits/locale_facets_nonio.h /usr/include/c++/10/ctime \
  /usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/10/bits/codecvt.h \
  /usr/include/c++/10/bits/locale_facets_nonio.tcc \
  /usr/include/c++/10/bits/locale_conv.h \
- /usr/include/c++/10/bits/unique_ptr.h /usr/include/c++/10/tuple \
- /usr/include/c++/10/array /usr/include/c++/10/bits/uses_allocator.h \
- /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/iomanip \
- /usr/include/c++/10/bits/quoted_string.h /usr/include/c++/10/sstream \
- /usr/include/c++/10/bits/sstream.tcc /usr/include/c++/10/codecvt \
- /usr/include/c++/10/ext/concurrence.h \
- /usr/include/c++/10/bits/shared_ptr.h \
- /usr/include/c++/10/bits/shared_ptr_base.h \
- /usr/include/c++/10/bits/allocated_ptr.h \
- /usr/include/c++/10/bits/refwrap.h \
- /usr/include/c++/10/ext/aligned_buffer.h \
- /usr/include/c++/10/bits/fs_dir.h /usr/include/c++/10/bits/fs_ops.h \
- /usr/include/c++/10/memory \
- /usr/include/c++/10/bits/stl_raw_storage_iter.h \
- /usr/include/c++/10/bits/ranges_uninitialized.h \
- /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
- /usr/include/c++/10/bits/stream_iterator.h /usr/include/c++/10/ranges \
- /usr/include/c++/10/bits/shared_ptr_atomic.h \
- /usr/include/c++/10/bits/atomic_base.h \
- /usr/include/c++/10/bits/atomic_lockfree_defines.h \
- /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
- /usr/include/c++/10/pstl/glue_memory_defs.h \
- /usr/include/c++/10/pstl/execution_defs.h \
- /usr/include/c++/10/unordered_map /usr/include/c++/10/bits/hashtable.h \
- /usr/include/c++/10/bits/hashtable_policy.h \
- /usr/include/c++/10/bits/node_handle.h \
- /usr/include/c++/10/bits/unordered_map.h \
- /usr/include/c++/10/bits/erase_if.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Image.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/RectangleShape.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/RenderStates.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/RenderTarget.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/View.hpp \
- /usr/include/c++/10/cstddef \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/RenderTexture.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/ContextSettings.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/RenderWindow.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Window.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Clock.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/WindowBase.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Vulkan.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/WindowHandle.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/WindowStyle.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Shader.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Glsl.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector3.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Vector3.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Glsl.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Sprite.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/Text.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/String.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Utf.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Utf.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/String.inl \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Graphics/VertexBuffer.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Err.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/FileInputStream.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/InputStream.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/MemoryInputStream.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/System/Sleep.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Clipboard.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Context.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Cursor.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Event.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Joystick.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Keyboard.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Mouse.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Sensor.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/Touch.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Window/VideoMode.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Ftp.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpSocket.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Http.hpp \
- /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
- /usr/include/c++/10/bits/stl_map.h \
+ /usr/include/c++/10/bits/unique_ptr.h /usr/include/SFML/System/Utf.inl \
+ /usr/include/SFML/System/String.inl /usr/include/SFML/System/Thread.hpp \
+ /usr/include/SFML/System/Thread.inl \
+ /usr/include/SFML/System/ThreadLocal.hpp \
+ /usr/include/SFML/System/ThreadLocalPtr.hpp \
+ /usr/include/SFML/System/ThreadLocalPtr.inl \
+ /usr/include/SFML/System/Vector3.hpp \
+ /usr/include/SFML/System/Vector3.inl \
+ /usr/include/SFML/Window/Clipboard.hpp \
+ /usr/include/SFML/Window/Export.hpp /usr/include/SFML/Window/Context.hpp \
+ /usr/include/SFML/Window/GlResource.hpp \
+ /usr/include/SFML/Window/ContextSettings.hpp \
+ /usr/include/SFML/Window/Cursor.hpp /usr/include/SFML/Window/Event.hpp \
+ /usr/include/SFML/Window/Joystick.hpp \
+ /usr/include/SFML/Window/Keyboard.hpp /usr/include/SFML/Window/Mouse.hpp \
+ /usr/include/SFML/Window/Sensor.hpp /usr/include/SFML/Window/Touch.hpp \
+ /usr/include/SFML/Window/VideoMode.hpp \
+ /usr/include/SFML/Window/Window.hpp \
+ /usr/include/SFML/Window/WindowHandle.hpp \
+ /usr/include/SFML/Window/WindowStyle.hpp \
+ /usr/include/SFML/Graphics/BlendMode.hpp \
+ /usr/include/SFML/Graphics/Export.hpp \
+ /usr/include/SFML/Graphics/CircleShape.hpp \
+ /usr/include/SFML/Graphics/Shape.hpp \
+ /usr/include/SFML/Graphics/Drawable.hpp \
+ /usr/include/SFML/Graphics/RenderStates.hpp \
+ /usr/include/SFML/Graphics/Transform.hpp \
+ /usr/include/SFML/Graphics/Rect.hpp /usr/include/SFML/Graphics/Rect.inl \
+ /usr/include/SFML/Graphics/Transformable.hpp \
+ /usr/include/SFML/Graphics/VertexArray.hpp \
+ /usr/include/SFML/Graphics/Vertex.hpp \
+ /usr/include/SFML/Graphics/Color.hpp \
+ /usr/include/SFML/Graphics/PrimitiveType.hpp \
+ /usr/include/SFML/Graphics/ConvexShape.hpp \
+ /usr/include/SFML/Graphics/Font.hpp /usr/include/SFML/Graphics/Glyph.hpp \
+ /usr/include/SFML/Graphics/Texture.hpp \
+ /usr/include/SFML/Graphics/Image.hpp /usr/include/c++/10/map \
+ /usr/include/c++/10/bits/stl_tree.h /usr/include/c++/10/bits/stl_map.h \
  /usr/include/c++/10/bits/stl_multimap.h \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/Packet.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/SocketSelector.hpp \
- /home/shaft/CLionProjects/Pong-Cpp/3rdparty/sfml/include/SFML/Network/TcpListener.hpp
+ /usr/include/SFML/Graphics/RectangleShape.hpp \
+ /usr/include/SFML/Graphics/RenderTarget.hpp \
+ /usr/include/SFML/Graphics/View.hpp \
+ /usr/include/SFML/Graphics/RenderTexture.hpp \
+ /usr/include/SFML/Graphics/RenderWindow.hpp \
+ /usr/include/SFML/Graphics/Shader.hpp \
+ /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
+ /usr/include/SFML/Graphics/Sprite.hpp \
+ /usr/include/SFML/Graphics/Text.hpp \
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /usr/include/SFML/Network.hpp /usr/include/SFML/Network/Ftp.hpp \
+ /usr/include/SFML/Network/TcpSocket.hpp \
+ /usr/include/SFML/Network/Http.hpp /usr/include/SFML/Network/Packet.hpp \
+ /usr/include/SFML/Network/SocketSelector.hpp \
+ /usr/include/SFML/Network/TcpListener.hpp
