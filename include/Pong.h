@@ -7,7 +7,7 @@
 
 class Pong {
 public:
-    Pong() = default;
+    Pong();
     ~Pong();
 
     void init();
@@ -16,6 +16,13 @@ public:
 private:
     Player player;
     Player opponent;
+
+    struct Ball
+    {
+        Transform transform;
+        sf::CircleShape shape;
+    } ball;
+    
     Connection connection;
 
     sf::RenderWindow window;
@@ -24,6 +31,7 @@ private:
     void update();
 
     // Network "Systems"
+    void sendMessage(sf::Packet& packet);
     void sync();
     void connect(const sf::IpAddress& _ip, unsigned short _port);
     void disconnect();
