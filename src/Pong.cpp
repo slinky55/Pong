@@ -33,6 +33,10 @@ void Pong::init(const std::string& ip, unsigned short port = 4500)
 
     opponent.paddle.setFillColor(sf::Color::White);
     opponent.paddle.setSize({10, 100});
+
+    ball.shape.setRadius(7.5);
+    ball.shape.setPointCount(100);
+    ball.shape.setFillColor(sf::Color::White);
 }
 
 void Pong::run()
@@ -51,14 +55,14 @@ void Pong::update()
 {
     player.paddle.setPosition(player.transform.position);
     opponent.paddle.setPosition(opponent.transform.position);
-    //ball.shape.setPosition(ball.transform.position);
+    ball.shape.setPosition(ball.transform.position);
 }
 
 void Pong::sync()
 {
     sf::Packet in;
     connection.socket.receive(in, connection.ip, connection.port);
-    in >> player.transform >> opponent.transform;
+    in >> player.transform >> opponent.transform >> ball.transform;
 }
 
 void Pong::connect(const sf::IpAddress& _ip, unsigned short _port)
@@ -146,7 +150,7 @@ void Pong::RenderSystem()
 
     window.draw(player.paddle);
     window.draw(opponent.paddle);
-    //window.draw(ball.shape);
+    window.draw(ball.shape);
 
     window.display();
 }
