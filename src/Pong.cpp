@@ -23,10 +23,10 @@ Pong::~Pong()
     disconnect();
 }
 
-void Pong::init()
+void Pong::init(const std::string& ip, unsigned short port = 4500)
 {
     window.create( sf::VideoMode({800, 600}), "Pong - Multiplayer" );
-    connect(sf::IpAddress::LocalHost, 4500);
+    connect(ip, port);
 
     player.paddle.setFillColor(sf::Color::White);
     player.paddle.setSize({10, 100});
@@ -91,7 +91,7 @@ void Pong::disconnect()
     sf::Packet out;
     out << -1 << player.ID;
 
-    if (connection.socket.send(out, sf::IpAddress::LocalHost, 4500) == sf::Socket::Done)
+    if (connection.socket.send(out, connection.ip, connection.port) == sf::Socket::Done)
     {
         std::cout << "Disconnected\n";
     }

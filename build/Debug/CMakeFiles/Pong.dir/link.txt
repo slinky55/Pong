@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/Pong.dir/main.cpp.o CMakeFiles/Pong.dir/src/Pong.cpp.o -o Pong  -lsfml-system -lsfml-window -lsfml-graphics -lsfml-network 
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Pong.dir/main.cpp.o CMakeFiles/Pong.dir/src/Pong.cpp.o -o Pong   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lsfml-system -lsfml-window -lsfml-graphics -lsfml-network 

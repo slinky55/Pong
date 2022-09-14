@@ -1,12 +1,10 @@
 #include <Pong.h>
 
-#include <SFML/System.hpp>
-
 int main(int argc, char** argv)
 {
     Pong p;
 
-    p.init();
+    p.init("192.168.0.118", 4500);
     p.run();
 
     return 0;

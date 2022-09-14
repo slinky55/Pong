@@ -4,6 +4,7 @@ project(Pong)
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(/usr/local/include include)
+link_directories(/usr/local/lib)
 
 #add_subdirectory(3rdparty/sfml)
 

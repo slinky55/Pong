@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shaft/CLionProjects/Pong-Cpp/main.cpp" "CMakeFiles/Pong.dir/main.cpp.o" "gcc" "CMakeFiles/Pong.dir/main.cpp.o.d"
-  "/home/shaft/CLionProjects/Pong-Cpp/src/Pong.cpp" "CMakeFiles/Pong.dir/src/Pong.cpp.o" "gcc" "CMakeFiles/Pong.dir/src/Pong.cpp.o.d"
+  "/Users/shaft/Pong-Cpp/main.cpp" "CMakeFiles/Pong.dir/main.cpp.o" "gcc" "CMakeFiles/Pong.dir/main.cpp.o.d"
+  "/Users/shaft/Pong-Cpp/src/Pong.cpp" "CMakeFiles/Pong.dir/src/Pong.cpp.o" "gcc" "CMakeFiles/Pong.dir/src/Pong.cpp.o.d"
   )
 
 # Targets to which this target links.

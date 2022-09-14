@@ -10,7 +10,7 @@ public:
     Pong();
     ~Pong();
 
-    void init();
+    void init(const std::string& ip, unsigned short port);
     void run();
 
 private:

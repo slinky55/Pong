@@ -1,4 +1,4 @@
-/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -S /home/shaft/CLionProjects/Pong-Cpp -B /home/shaft/CLionProjects/Pong-Cpp/build/Debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "Unix Makefiles" -S /Users/shaft/Pong-Cpp -B /Users/shaft/Pong-Cpp/build/Debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/shaft/CLionProjects/Pong-Cpp/build/Debug
+-- Build files have been written to: /Users/shaft/Pong-Cpp/build/Debug
