@@ -1,5 +1,0 @@
-/Users/shaft/Pong-Cpp/build/Debug/CMakeFiles/Pong.dir
-/Users/shaft/Pong-Cpp/build/Debug/CMakeFiles/package.dir
-/Users/shaft/Pong-Cpp/build/Debug/CMakeFiles/package_source.dir
-/Users/shaft/Pong-Cpp/build/Debug/CMakeFiles/edit_cache.dir
-/Users/shaft/Pong-Cpp/build/Debug/CMakeFiles/rebuild_cache.dir

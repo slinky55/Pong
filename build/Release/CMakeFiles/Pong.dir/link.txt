@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/Pong.dir/main.cpp.o CMakeFiles/Pong.dir/src/Pong.cpp.o -o Pong  -lsfml-system -lsfml-window -lsfml-graphics -lsfml-network 

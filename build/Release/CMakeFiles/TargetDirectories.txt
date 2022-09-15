@@ -1,5 +1,0 @@
-/home/shaft/CLionProjects/Pong-Cpp/build/Release/CMakeFiles/Pong.dir
-/home/shaft/CLionProjects/Pong-Cpp/build/Release/CMakeFiles/package.dir
-/home/shaft/CLionProjects/Pong-Cpp/build/Release/CMakeFiles/package_source.dir
-/home/shaft/CLionProjects/Pong-Cpp/build/Release/CMakeFiles/edit_cache.dir
-/home/shaft/CLionProjects/Pong-Cpp/build/Release/CMakeFiles/rebuild_cache.dir

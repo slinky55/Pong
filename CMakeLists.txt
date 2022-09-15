@@ -10,7 +10,7 @@ link_directories(/usr/local/lib)
 
 file (GLOB_RECURSE SRCS src/*.cpp)
 
-add_executable(Pong main.cpp ${SRCS})
+add_executable(Pong ${SRCS})
 
 target_link_libraries(Pong PRIVATE
         sfml-system sfml-window sfml-graphics sfml-network)
