@@ -1,4 +1,4 @@
-#include <Menu.h>
+#include "Scenes/Menu.h"
 
 #include <SceneManager.h>
 
@@ -6,7 +6,7 @@ void Menu::OnAwake()
 {
     m_selected = false;
 
-    m_font.loadFromFile("../../res/fonts/Roboto-Regular.ttf");
+    m_font.loadFromFile("res/fonts/Roboto-Regular.ttf");
 
     m_singleplayer.setSize({300, 50});
     m_singleplayer.setOrigin({m_singleplayer.getSize().x / 2, m_singleplayer.getSize().y / 2});
