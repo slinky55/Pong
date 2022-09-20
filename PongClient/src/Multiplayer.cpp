@@ -1,4 +1,4 @@
-#include "Pong.h"
+#include <Multiplayer.h>
 
 sf::Packet& operator<<(sf::Packet& packet, const sf::Vector2f& vec)
 {
@@ -17,16 +17,17 @@ sf::Packet& operator>>(sf::Packet& packet, Transform& transform)
     return packet >> transform.position >> transform.velocity >> transform.scale >> transform.rotation;
 }
 
-Pong::Pong() = default;
-Pong::~Pong()
+void Multiplayer::OnAwake()
 {
-    disconnect();
-}
+    std::string ip, port;
 
-void Pong::init(const std::string& ip, unsigned short port = 4500)
-{
-    window.create( sf::VideoMode({800, 600}), "Pong - Multiplayer" );
-    connect(ip, port);
+    std::cout << "Enter IP: ";
+    std::cin >> ip;
+    std::cout << "\nEnter port: ";
+    std::cin >> port;
+    std::cout << "\n";
+
+    connect(ip, std::stoi(port));
 
     player.paddle.setFillColor(sf::Color::White);
     player.paddle.setSize({10, 100});
@@ -38,84 +39,13 @@ void Pong::init(const std::string& ip, unsigned short port = 4500)
     ball.shape.setPointCount(100);
     ball.shape.setFillColor(sf::Color::White);
 }
-
-void Pong::run()
+void Multiplayer::OnDestroy()
 {
-    while (window.isOpen())
-    {
-        sync();
-        EventSystem();
-        //PhysicsSystem(clock.restart().asSeconds());
-        update();
-        RenderSystem();
-    }
+    disconnect();
 }
 
-void Pong::update()
+void Multiplayer::Input(sf::RenderWindow &_window)
 {
-    player.paddle.setPosition(player.transform.position);
-    opponent.paddle.setPosition(opponent.transform.position);
-    ball.shape.setPosition(ball.transform.position);
-}
-
-void Pong::sync()
-{
-    sf::Packet in;
-    connection.socket.receive(in, connection.ip, connection.port);
-    in >> player.transform >> opponent.transform >> ball.transform;
-}
-
-void Pong::connect(const sf::IpAddress& _ip, unsigned short _port)
-{
-    sf::Packet out;
-    out << 0;
-    
-    if (connection.socket.send(out, _ip, _port) == sf::Socket::Done)
-    {
-        connection.ip = _ip;
-        connection.port = _port;   
-
-        sf::Packet in;
-        // Declare these for now, just so our connection doesn't get overwriten
-        // in case of a different sender
-        sf::IpAddress ip;
-        unsigned short port;
-        if (connection.socket.receive(in, ip, port) == sf::Socket::Done)
-        {
-            in >> player.ID >> player.transform;
-            std::cout << player.transform.position.x << ":" << player.transform.position.y << "\n";
-            std::cout << "Connection successful!\nID: " << player.ID << "\n";
-            connection.socket.setBlocking(false);
-        }
-    }
-}
-
-void Pong::disconnect()
-{
-    sf::Packet out;
-    out << -1 << player.ID;
-
-    if (connection.socket.send(out, connection.ip, connection.port) == sf::Socket::Done)
-    {
-        std::cout << "Disconnected\n";
-    }
-}
-
-void Pong::sendMessage(sf::Packet& packet)
-{
-    connection.socket.send(packet, connection.ip, connection.port);
-}
-
-void Pong::EventSystem()
-{
-    sf::Event e{};
-
-    while (window.pollEvent(e))
-    {
-        if (e.type == sf::Event::Closed)
-            window.close();
-    }
-
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
     {
         sf::Packet cmd;
@@ -135,22 +65,69 @@ void Pong::EventSystem()
         sendMessage(cmd);
     }
 }
-
-void Pong::PhysicsSystem(float dt)
+void Multiplayer::Update(float dt)
 {
+    sync();
+
+    // Physics
     player.transform.position += (player.transform.velocity * dt);
     opponent.transform.position += (opponent.transform.velocity * dt);
-}
 
-void Pong::RenderSystem()
+    // Update positions
+    player.paddle.setPosition(player.transform.position);
+    opponent.paddle.setPosition(opponent.transform.position);
+    ball.shape.setPosition(ball.transform.position);
+}
+void Multiplayer::Draw(sf::RenderWindow &_window)
 {
-    window.clear();
-
-    // TODO: Draw UI
-
-    window.draw(player.paddle);
-    window.draw(opponent.paddle);
-    window.draw(ball.shape);
-
-    window.display();
+    _window.draw(player.paddle);
+    _window.draw(opponent.paddle);
+    _window.draw(ball.shape);
 }
+
+void Multiplayer::sendMessage(sf::Packet& packet)
+{
+    connection.socket.send(packet, connection.ip, connection.port);
+}
+void Multiplayer::sync()
+{
+    sf::Packet in;
+    connection.socket.receive(in, connection.ip, connection.port);
+    in >> player.transform >> opponent.transform >> ball.transform;
+}
+void Multiplayer::connect(const sf::IpAddress& _ip, unsigned short _port)
+{
+    sf::Packet out;
+    out << 0;
+
+    if (connection.socket.send(out, _ip, _port) == sf::Socket::Done)
+    {
+        connection.ip = _ip;
+        connection.port = _port;
+
+        sf::Packet in;
+        // Declare these for now, just so our connection doesn't get overwriten
+        // in case of a different sender
+        sf::IpAddress ip;
+        unsigned short port;
+        if (connection.socket.receive(in, ip, port) == sf::Socket::Done)
+        {
+            in >> player.ID >> player.transform;
+            std::cout << player.transform.position.x << ":" << player.transform.position.y << "\n";
+            std::cout << "Connection successful!\nID: " << player.ID << "\n";
+            connection.socket.setBlocking(false);
+        }
+    }
+}
+void Multiplayer::disconnect()
+{
+    sf::Packet out;
+    out << -1 << player.ID;
+
+    if (connection.socket.send(out, connection.ip, connection.port) == sf::Socket::Done)
+    {
+        std::cout << "Disconnected\n";
+    }
+}
+
+

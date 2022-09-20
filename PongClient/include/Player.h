@@ -6,6 +6,11 @@
 struct Player
 {
     Transform transform;
-    sf::Uint32 ID {0}, score {0};
+    uint32_t score {0};
     sf::RectangleShape paddle;
+};
+
+struct NetPlayer : public Player
+{
+    uint32_t ID;
 };

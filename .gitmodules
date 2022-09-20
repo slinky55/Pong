@@ -1,6 +1,3 @@
-[submodule "3rdparty/sfml"]
-	path = 3rdparty/sfml
-	url = https://github.com/SFML/SFML
-[submodule "3rdparty/imgui"]
-	path = 3rdparty/imgui
-	url = git@github.com:ocornut/imgui.git
+[submodule "PongServer-Cpp"]
+	path = PongServer-Cpp
+	url = git@github.com:slinky55/PongServer-Cpp.git
