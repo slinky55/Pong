@@ -3,7 +3,7 @@
 Pong::Pong() = default;
 Pong::~Pong()
 {
-    /*disconnect();*/
+    m_sceneManager->CurrentScene()->OnDestroy();
 }
 void Pong::init()
 {
