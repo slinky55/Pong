@@ -1,4 +1,4 @@
-# Pong-Cpp
+# Pong
 A pong clone written in C++ using SFML
 
 ## About
