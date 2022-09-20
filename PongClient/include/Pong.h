@@ -1,9 +1,10 @@
 #pragma once
 
-#include <Multiplayer.h>
-#include <Menu.h>
+#include "Scenes/Singleplayer.h"
+#include "Scenes/Multiplayer.h"
+#include "Scenes/Menu.h"
 
-#include <SceneManager.h>
+#include "SceneManager.h"
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Network.hpp>
@@ -26,5 +27,4 @@ private:
     void PollEvents();
     void Update();
     void Draw();
-
 };

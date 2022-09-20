@@ -1,7 +1,15 @@
+#pragma once
+
 #include <iostream>
 
 #include <Components.h>
 #include <SFML/Graphics.hpp>
+
+enum class Command {
+    UP = 0,
+    DOWN,
+    STOP
+};
 
 struct Player
 {

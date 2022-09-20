@@ -1,4 +1,5 @@
-#include <Scene.h>
+#include "Scene.h"
+#include "Player.h"
 
 #include <SFML/Graphics/Font.hpp>
 #include <SFML/Graphics/Text.hpp>
@@ -25,8 +26,23 @@ private:
     sf::RectangleShape m_singleplayer;
     sf::RectangleShape m_multiplayer;
 
+    sf::Text m_title;
     sf::Text m_singleText;
     sf::Text m_multiText;
 
     bool m_selected = false;
+
+    // "Game" Stuff
+    Player left;
+    Player right;
+
+    struct Ball
+    {
+        Transform transform;
+        sf::CircleShape shape;
+    } ball;
+
+    void ResetBall();
+    void DetectCollisions();
+    Command AISystem(Player& player) const;
 };

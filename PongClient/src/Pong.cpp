@@ -8,11 +8,13 @@ Pong::~Pong()
 void Pong::init()
 {
     m_window.create( sf::VideoMode({800, 600}), "Pong" );
+    m_window.setFramerateLimit(60);
 
     m_sceneManager = SceneManager::Instance();
 
     m_sceneManager->AddScene("menu", std::make_shared<Menu>());
     m_sceneManager->AddScene("multiplayer", std::make_shared<Multiplayer>());
+    m_sceneManager->AddScene("singleplayer", std::make_shared<Singleplayer>());
 
     m_sceneManager->SetCurrentScene("menu");
 }
