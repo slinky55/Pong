@@ -3,8 +3,8 @@ project(PongClient)
 
 set(CMAKE_CXX_STANDARD 20)
 
-if (MACOS)
-    include_directories(/usr/local/include PongClient/include)
+if (APPLE)
+    include_directories(/usr/local/include include)
     link_directories(/usr/local/lib)
 else()
     include_directories(include)
